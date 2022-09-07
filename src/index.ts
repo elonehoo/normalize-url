@@ -1,2 +1,3 @@
-export const one = 1
-export const two = 2
+const DATA_URL_DEFAULT_MIME_TYPE:string = 'text/plain'
+const DATA_URL_DEFAULT_CHARSET:string = 'us-ascii'
+

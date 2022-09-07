@@ -1,5 +1,5 @@
 {
-  "name": "normalize-url",
+  "name": "@elonehoo/normalize-url",
   "version": "0.0.0",
   "license": "MIT",
   "description": "Normalize a URL",
