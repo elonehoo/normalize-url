@@ -355,7 +355,7 @@ export default function normalizeUrl(urlString:string, options?:Options) {
 
 	// Prepend protocol
 	if (!isRelativeUrl) {
-		urlString = urlString.replace(/^(?!(?:\w+:)?\/\/)|^\/\//, options.defaultProtocol);
+		urlString = urlString.replace(/^(?!(?:\w+:)?\/\/)|^\/\//, options.defaultProtocol!);
 	}
 
 	const urlObject = new URL(urlString);
@@ -429,6 +429,7 @@ export default function normalizeUrl(urlString:string, options?:Options) {
 
 	// Remove directory index
 	if (options.removeDirectoryIndex === true) {
+    //@ts-ignore
 		options.removeDirectoryIndex = [/^index\.[a-z]+$/];
 	}
 
