@@ -1,6 +1,6 @@
 {
   "name": "@elonehoo/normalize-url",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "description": "Normalize a URL",
   "author": "Elone Hoo <huchengyea@163.com>",
