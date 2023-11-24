@@ -36,7 +36,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "2.1.0",
     "@elonehoo/rimraf": "0.0.1",
-    "@types/node": "20.9.4",
+    "@types/node": "20.9.5",
     "bumpp": "9.2.0",
     "eslint": "8.54.0",
     "pnpm": "8.10.5",
