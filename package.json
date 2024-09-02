@@ -34,7 +34,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "2.27.3",
+    "@antfu/eslint-config": "3.0.0",
     "@elonehoo/rimraf": "0.0.1",
     "@types/node": "22.5.2",
     "bumpp": "9.5.2",
