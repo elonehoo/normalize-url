@@ -4,7 +4,7 @@ const DATA_URL_DEFAULT_CHARSET: string = 'us-ascii'
 const testParameter = (name: any, filters: any) => filters.some((filter: any) => filter instanceof RegExp ? filter.test(name) : filter === name)
 
 function normalizeDataURL(urlString: string, { stripHash }: any) {
-  const match = /^data:(?<type>[^,]*?),(?<data>[^#]*?)(?:#(?<hash>.*))?$/.exec(urlString)
+  const match = /^data:(?<type>[^,]*),(?<data>[^#]*)(?:#(?<hash>.*))?$/.exec(urlString)
 
   if (!match)
     throw new Error(`Invalid URL: ${urlString}`)
@@ -367,7 +367,7 @@ export default function normalizeUrl(urlString: string, options?: Options) {
   if (options.stripHash)
     urlObject.hash = ''
   else if (options.stripTextFragment)
-    urlObject.hash = urlObject.hash.replace(/#?:~:text.*?$/i, '')
+    urlObject.hash = urlObject.hash.replace(/#?:~:text.*$/i, '')
 
   // Remove duplicate slashes if not preceded by a protocol
   // NOTE: This could be implemented using a single negative lookbehind
