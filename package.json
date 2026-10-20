@@ -49,6 +49,6 @@
     "typescript": "5.9.3",
     "unbuild": "^3.6.1",
     "vite": "6.4.4",
-    "vitest": "3.2.7"
+    "vitest": "5.0.5"
   }
 }
