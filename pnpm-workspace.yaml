@@ -1,0 +1,5 @@
+# The locked esbuild versions use their platform-specific optional binaries.
+# Unknown dependency builds remain errors and require separate review.
+strictDepBuilds: true
+allowBuilds:
+  esbuild@0.24.2 || 0.25.0 || 0.25.12: false
