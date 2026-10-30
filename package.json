@@ -44,11 +44,11 @@
     "@elonehoo/rimraf": "0.0.1",
     "@types/node": "24.19.2",
     "bumpp": "12.3.0",
-    "eslint": "10.13.0",
-    "pnpm": "12.14.0",
+    "eslint": "10.14.0",
+    "pnpm": "12.16.1",
     "typescript": "5.9.3",
     "unbuild": "^3.6.1",
-    "vite": "8.3.4",
+    "vite": "8.3.5",
     "vitest": "5.0.5"
   }
 }
